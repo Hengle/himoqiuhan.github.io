@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'font1';
+    font-display: swap;
+    src: url('/butterflyChange/fonts/font_3995369_tput3vvjpp.woff2?t=1680576165990') format('woff2');
+}
+
+@font-face {
+    font-family: 'font2';
+    font-display: swap;
+    src: url('/butterflyChange/fonts/font_3995369_tput3vvjpp.woff?t=1680576165990') format('woff');
+}
+
+@font-face {
+    font-family: 'font3';
+    font-display: swap;
+    src: url('/butterflyChange/fonts/font_3995369_tput3vvjpp.ttf?t=1680576165990') format('truetype');
+}
