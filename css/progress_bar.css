@@ -34,22 +34,6 @@
 	-o-transform: rotate(3deg) translate(0px, -4px);
 	transform: rotate(3deg) translate(0px, -4px);
   }
-  
-  
-  .pace .pace-progress:after {
-	display: block;
-	position: absolute;
-	top: 0;
-	right: .5rem;
-	content: attr(data-progress-text);
-	font-family: "Helvetica Neue", sans-serif;
-	font-weight: 100;
-	font-size: 4rem;
-	line-height: 1;
-	text-align: right;
-	color: #AAEAFC ;
-}
-
   .pace .pace-activity {
 	display: block;
 	position: fixed;
@@ -99,5 +83,5 @@
   }
   .pace .pace-activity {
 	border-top-color: #F5CEFC;	/*上边框颜色*/
-	border-left-color: #AAEAFC;	/*左边框颜色*/
+	border-left-color: #F5CEFC;	/*左边框颜色*/
   }
