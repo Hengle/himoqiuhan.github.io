@@ -1,0 +1,4 @@
+.loading-img {
+	background: url("/images/loading.gif");
+	background-size: cover;
+}
