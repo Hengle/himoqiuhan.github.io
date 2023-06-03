@@ -327,11 +327,25 @@ span.card-archive-list-count {
   }
 }
 
+
+/* 我个人的设置 */
+/* 标题相关 */
 #post-info {
   text-align: left!important;
 }
-
 #post-info .post-title
 {
-  font-size: 2.8rem!important;
+  font-size: 3.3rem!important;
+}
+#post-info #post-meta {
+  font-size: 110%!important;
+}
+#page-header.post-bg{
+  height: 600px!important;
+}
+
+
+/* 取消页面左右限制 */
+.layout{
+  max-width: none!important;
 }
