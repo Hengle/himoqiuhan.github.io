@@ -349,3 +349,9 @@ span.card-archive-list-count {
 .layout{
   max-width: none!important;
 }
+
+/* 图片说明效果 */
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
