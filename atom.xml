@@ -35,13 +35,13 @@
     
     <category term="Unity" scheme="https://himoqiuhan.github.io/tags/Unity/"/>
     
+    <category term="技术美术" scheme="https://himoqiuhan.github.io/tags/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF/"/>
+    
     <category term="URP管线" scheme="https://himoqiuhan.github.io/tags/URP%E7%AE%A1%E7%BA%BF/"/>
     
     <category term="卡通渲染" scheme="https://himoqiuhan.github.io/tags/%E5%8D%A1%E9%80%9A%E6%B8%B2%E6%9F%93/"/>
     
     <category term="SRP自定义后处理" scheme="https://himoqiuhan.github.io/tags/SRP%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%8E%E5%A4%84%E7%90%86/"/>
-    
-    <category term="技术美术" scheme="https://himoqiuhan.github.io/tags/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF/"/>
     
   </entry>
   
@@ -512,7 +512,7 @@
     <link href="https://himoqiuhan.github.io/2023/04/01/Projects-SummaryOfUnityShaderEssentials/"/>
     <id>https://himoqiuhan.github.io/2023/04/01/Projects-SummaryOfUnityShaderEssentials/</id>
     <published>2023-03-31T16:00:04.000Z</published>
-    <updated>2023-09-03T06:50:58.980Z</updated>
+    <updated>2023-09-03T11:12:38.690Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>用这一篇总的记录一下学习这本书写出来的效果，具体的学习笔记见此：<a href="https://himoqiuhan.github.io/tags/%E3%80%8AUnityShader%E5%85%A5%E9%97%A8%E7%B2%BE%E8%A6%81%E3%80%8B/">《UnityShader入门精要》学习笔记</a></p></blockquote><h2 id="总览">总览</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902102643500.png" alt="效果总览"></p><h2 id="基础光照模型">基础光照模型</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902093754351.png" alt="Basic Lighting"></p><ul><li>逐片元的光照计算</li><li>逐顶点的光照计算</li><li>Blinn-Phong着色模型</li><li>逐顶点的高光反射计算</li></ul><h2 id="纹理的使用">纹理的使用</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902094030537.png" alt="Basic Texture"></p><ul><li>基础的纹理使用</li><li>法线贴图在切线空间和世界空间下计算光照</li><li>Blinn-Phong光照模型结合贴图使用</li><li>Ramp图的使用</li></ul><h2 id="前向渲染">前向渲染</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902094235305.png" alt="Forward Rendering"></p><ul><li>Alpha Blend实现半透明效果</li><li>Alpha Test实现透明效果</li><li>built-in中前向渲染的多光源</li></ul><h2 id="环境贴图">环境贴图</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902095404409.png" alt="Cubemap"></p><ul><li>基于Cubemap的菲涅尔效果</li><li>基于Cubemap的环境反射</li><li>基于Cubemap的环境折射</li></ul><h2 id="基于RT的镜面反射">基于RT的镜面反射</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902095748936.png" alt="Mirror"></p><ul><li>基于摄像机动态更新RT实现镜子效果，更改C#代码使得镜子前后移动会更改镜面内容缩放（透视）</li></ul><h2 id="玻璃折射">玻璃折射</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902100142866.png" alt="Glass"></p><ul><li>使用GrabPass，通过法线扰乱贴图读取模拟玻璃折射效果；使用Cubemap模拟玻璃反射效果</li></ul><h2 id="顶点动画">顶点动画</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902101650408.png" alt="Vertex Animation"></p><ul><li>顶点动画（需重新ShadowCaster）</li></ul><h2 id="BillBoard">BillBoard</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902101841164.png" alt="BillBoard"></p><ul><li>永远面向摄像机<ul><li>通过重构向前的方向来重构顶点位置，使得模型看上去始终面向摄像机</li></ul></li></ul><h2 id="溶解效果">溶解效果</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/image-20230902102220207.png" alt="Dissolve"></p><ul><li>通过噪声来对片元渲染进行Clip，实现溶解</li></ul>]]></content>
     
@@ -528,11 +528,11 @@
     
     <category term="Unity" scheme="https://himoqiuhan.github.io/tags/Unity/"/>
     
-    <category term="技术美术" scheme="https://himoqiuhan.github.io/tags/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF/"/>
-    
     <category term="Built-in管线" scheme="https://himoqiuhan.github.io/tags/Built-in%E7%AE%A1%E7%BA%BF/"/>
     
     <category term="CG" scheme="https://himoqiuhan.github.io/tags/CG/"/>
+    
+    <category term="技术美术" scheme="https://himoqiuhan.github.io/tags/%E6%8A%80%E6%9C%AF%E7%BE%8E%E6%9C%AF/"/>
     
   </entry>
   
