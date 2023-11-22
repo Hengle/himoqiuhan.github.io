@@ -6,7 +6,7 @@
   <link href="https://himoqiuhan.github.io/atom.xml" rel="self"/>
   
   <link href="https://himoqiuhan.github.io/"/>
-  <updated>2023-11-22T13:07:12.604Z</updated>
+  <updated>2023-11-22T13:16:13.856Z</updated>
   <id>https://himoqiuhan.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://himoqiuhan.github.io/2023/11/22/Projects-GenshinLikeRenderingInURP2/"/>
     <id>https://himoqiuhan.github.io/2023/11/22/Projects-GenshinLikeRenderingInURP2/</id>
     <published>2023-11-22T12:06:16.000Z</published>
-    <updated>2023-11-22T13:07:12.604Z</updated>
+    <updated>2023-11-22T13:16:13.856Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="介绍">介绍</h2><blockquote><p>Updating：这本应该是2.0，但是为什么是1.5呢？因为用于展示的视频还在制作中，详细的文档还在编写中，这次打算完整写一写全流程，因为有了更多我独立的思考和理解，借Blog的维护来进一步推动一下自己去写文档。</p></blockquote><blockquote><p>展示视频：（施工中…）</p></blockquote><p>先用一张图顶替一下：</p><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/cac5b96ce08adf526486128c49df132.png" alt="GLR Ver.2-Kokomi"></p><p>相比于仿原神渲染1.0，这次着重升级了：</p><blockquote><p>省流一下：优化角色渲染、加入自定义的场景渲染管线、更好看的Bloom、更清晰的代码架构</p></blockquote><ul><li><p>角色部分</p><ul><li>【漫反射】面部刘海投影</li><li>【漫反射】适配多样化Diffuse贴图使用方式</li><li>【漫反射】更灵活更美观的Ramp处理方式</li><li>【高光】基于对Mat Cap新理解的Blinn Phong + Mat Cap组合高光</li><li>【边缘光】更灵活可控的Rim Light</li><li>【描边】区分区域可控的描边颜色</li><li>【描边】更平滑的描边表现（优化平滑法线计算方式）</li><li>【流程优化】更灵活的顶点色使用方式</li><li>【代码架构优化】更加清晰的代码架构</li></ul></li><li><p>场景部分</p><ul><li>自定义的一套简易、灵活的渲染管线，可以实现：多光源的光照处理、单个方向光的Shadow Mapping、Baked Lightmap、PBR材质、PBR光照模型（Phong + Cook-Torrance）</li><li>十分清晰的代码架构（详见思维导图和文档）</li></ul></li><li><p>后处理部分</p><ul><li>效果更好的Bloom</li><li>更加清晰的代码架构</li></ul></li></ul><h2 id="思维导图">思维导图</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/GLR2-ShadingPart.png" alt="仿原神渲染2.0渲染部分的思维导图"></p><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/GLR2-TotalPart.png" alt="GLR2-TotalPart"></p><h2 id="文档指路">文档指路</h2><ul><li>渲染部分文档：（Updating…）</li><li>MMD-Blender-Unity MMD制作流程经验分享：（Updating…）</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="介绍">介绍</h2><blockquote><p>Updating：这本应该是2.0，但是为什么是1.5呢？因为用于展示的视频还在制作中，详细的文档还在编写中，这次打算完整写一写全流程，因为有了更多我独立的思考和理解，借Blog的维护来进一步推动一下自己去写文档。</p></blockquote><blockquote><p>展示视频：（施工中…）</p></blockquote><p>先用一张图顶替一下：</p><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/cac5b96ce08adf526486128c49df132.png" alt="GLR Ver.2-Kokomi"></p><p>相比于仿原神渲染1.0，这次着重升级了：</p><blockquote><p>省流一下：优化角色渲染、加入自定义的场景渲染管线、更好看的Bloom、更清晰的代码架构</p></blockquote><ul><li><p>角色部分</p><ul><li>【漫反射】面部刘海投影</li><li>【漫反射】适配多样化Diffuse贴图使用方式</li><li>【漫反射】更灵活更美观的Ramp处理方式</li><li>【高光】基于对Mat Cap新理解的Blinn Phong + Mat Cap组合高光</li><li>【边缘光】更灵活可控的Rim Light</li><li>【描边】区分区域可控的描边颜色</li><li>【描边】更平滑的描边表现（优化平滑法线计算方式）</li><li>【流程优化】更灵活的顶点色使用方式</li><li>【代码架构优化】更加清晰的代码架构</li></ul></li><li><p>场景部分</p><ul><li>自定义的一套简易、灵活的渲染管线，可以实现：多光源的光照处理、单个方向光的Shadow Mapping、Baked Lightmap、PBR材质、PBR光照模型（Phong + Cook-Torrance）</li><li>十分清晰的代码架构（详见思维导图和文档）</li></ul></li><li><p>后处理部分</p><ul><li>效果更好的Bloom</li><li>更加清晰的代码架构</li></ul></li></ul><h2 id="思维导图（图片较大，建议下载查看）">思维导图（图片较大，建议下载查看）</h2><p><img src="http://qiuhanblog-imgsubmit.oss-cn-beijing.aliyuncs.com/img/GLR2-ShadingPart.png" alt="仿原神渲染2.0渲染部分的思维导图"></p><h2 id="文档指路">文档指路</h2><ul><li>渲染部分文档：（Updating…）</li><li>MMD-Blender-Unity MMD制作流程经验分享：（Updating…）</li></ul>]]></content>
     
     
     <summary type="html">在URP管线下探究原神的卡通渲染实现，对1.0从效果、代码架构上进行迭代</summary>
